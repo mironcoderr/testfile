@@ -105,16 +105,20 @@ root/
 ## 📜 Environment Variables
 
 ### Backend (`.env.example`)
+```
 MONGODB_URL=mongodb://localhost:27017/mydatabase
 JWT_SECRET=your_jwt_secret_key
 FRONTEND_URL=http://localhost:3000
 ADMIN_EMAIL=admin@example.com
 NODE_ENV=development
 PORT=5000
+```
 
 ### Frontend (`.env.example`)
+```
 NEXT_PUBLIC_BASE_URL=http://localhost:5000
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
 
 ---
 
@@ -150,3 +154,25 @@ npm run dev
 ```
 
 ### Frontend runs on http://localhost:3000
+
+🧪 How to Test
+
+Register User A
+
+Copy User A’s referral link
+
+Open incognito → Register User B using the referral link
+
+Login as User B → Click “Buy Product”
+
+Login as User A → Check dashboard for earned credits
+
+👨‍💻 Author
+
+Miron Mahmud
+Email: mironcoder@gmail.com
+
+Phone: +880 18382 88389
+Website: mironmahmud.com
+
+GitHub: mironcoderr
