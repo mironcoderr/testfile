@@ -153,6 +153,30 @@ cp .env.example .env.local
 npm run dev
 ```
 
+## 🖼 UML / System Flow Diagram
+
+**Example Flow of Referral & Credit System:**
+
+1. **User Registration**
+   - User signs up
+   - Referral code (if any) is detected
+   - Referrer–referred relationship is created
+
+2. **User Login**
+   - User logs in
+   - Dashboard loads referral stats:
+     - Total Referred Users
+     - Pending Users
+     - Converted Users
+     - Total Credits
+     - Unique Referral Link
+
+3. **Purchase Flow**
+   - User clicks “Purchase Now”
+   - System checks if it's the first purchase
+   - Credits are assigned to both referrer and referred user
+   - Referral status updated to “converted”
+   
 ### Frontend runs on http://localhost:3000
 
 ## 🧪 How to Test
