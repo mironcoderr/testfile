@@ -44,6 +44,51 @@
 
 ---
 
+## 🔗 API Endpoints (Backend)
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/auth/register` | Register new user |
+| POST | `/api/auth/login` | User login |
+| POST | `/api/auth/logout` | User logout |
+| GET  | `/api/users/me` | Get logged-in user details |
+| GET  | `/api/users/registered` | Total referred users |
+| GET  | `/api/users/referred` | Referred users who purchased |
+| POST | `/api/purchases` | Simulate purchase (first triggers credits) |
+
+---
+
+## 📜 Environment Variables
+
+### Backend (`.env.example`)
+MONGODB_URL=mongodb://localhost:27017/mydatabase
+JWT_SECRET=your_jwt_secret_key
+FRONTEND_URL=http://localhost:3000
+ADMIN_EMAIL=admin@example.com
+NODE_ENV=development
+PORT=5000
+
+### Frontend (`.env.example`)
+NEXT_PUBLIC_BASE_URL=http://localhost:5000
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+
+---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Node.js v18+  
+- MongoDB (local or Atlas cluster)  
+- Git  
+
+### Clone Repository
+```bash
+git clone https://github.com/mironcoderr/webpez.git
+cd webpez
+
+
+
+
 
 
 
