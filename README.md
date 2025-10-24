@@ -153,6 +153,8 @@ cp .env.example .env.local
 npm run dev
 ```
 
+### Frontend runs on http://localhost:3000
+
 ## 🖼 UML / System Flow Diagram
 
 **Example Flow of Referral & Credit System:**
@@ -177,8 +179,6 @@ npm run dev
    - Credits are assigned to both referrer and referred user
    - Referral status updated to “converted”
    
-### Frontend runs on http://localhost:3000
-
 ## 🧪 How to Test
 - Register User A
 - Copy User A’s referral link
