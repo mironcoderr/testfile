@@ -1,1 +1,2 @@
-# testfile
+# 📌 Project Overview – Referral & Credit System (Full Stack)
+This project is a full-stack Referral & Credit System built as part of a mid-level developer assignment. The system simulates a digital product platform (e.g., e-book/templates store) where users can register, invite others using a referral link, earn credits on referred users’ first purchases, and track referral activity through a dashboard.
