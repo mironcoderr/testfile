@@ -103,3 +103,26 @@ npm run dev
 
 
 Frontend runs on http://localhost:3000.
+
+📊 System Architecture (High-Level)
+[ Next.js Frontend ]
+        ⬇️ REST API (Axios)
+[ Express.js Backend ]
+        ⬇️ Mongoose Queries
+[ MongoDB Database ]
+
+
+Frontend communicates via JWT-authenticated requests
+
+Backend validates users, handles business logic, and updates database
+
+MongoDB stores users, referrals, and purchases
+
+🖼 UML Diagram
+
+Include your system design diagram here (system-design.png)
+Example flow:
+
+User → Register → Referral code detected → Link to Referrer
+User → Login → Dashboard loads stats
+User → Purchase → Check if first → Assign credits
