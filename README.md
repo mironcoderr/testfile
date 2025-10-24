@@ -86,9 +86,20 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 git clone https://github.com/mironcoderr/webpez.git
 cd webpez
 
+Backend Setup
+cd backend
+npm install
+cp .env.example .env
+npm run dev
 
 
+Backend runs on http://localhost:5000.
+
+Frontend Setup
+cd ../frontend
+npm install
+cp .env.example .env.local
+npm run dev
 
 
-
-
+Frontend runs on http://localhost:3000.
