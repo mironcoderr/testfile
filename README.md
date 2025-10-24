@@ -83,7 +83,7 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 
 ### Clone Repository
 ```bash
-git clone https://github.com/mironcoderr/webpez.git
+[git clone https://github.com/mironcoderr/webpez.git](https://github.com/mironcoderr/jobtask-filesure-webpez.git)
 cd webpez
 
 
