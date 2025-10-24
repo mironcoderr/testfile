@@ -44,46 +44,6 @@
 
 ---
 
-## 📂 Project Structure
-root/
-├── backend/
-│   ├── configs/
-│   ├── controllers/
-│   ├── enums/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── schemas/
-│   ├── services/
-│   ├── types/
-│   ├── env.example
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── server.ts
-│   └── tsconfig.json
-│
-├── frontend/
-│   ├── app/
-│   ├── components/
-│   ├── enums/
-│   ├── hooks/
-│   ├── json/
-│   ├── library/
-│   ├── public/
-│   ├── schemas/
-│   ├── store/
-│   ├── types/
-│   ├── env.example
-│   ├── next-env.d.ts
-│   ├── next.config.ts
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.mjs
-│   └── tsconfig.json
-│
-├── .gitignore
-├── LICENSE
-└── README.md
 
 
 
