@@ -155,24 +155,16 @@ npm run dev
 
 ### Frontend runs on http://localhost:3000
 
-🧪 How to Test
+## 🧪 How to Test
+- Register User A
+- Copy User A’s referral link
+- Open incognito → Register User B using the referral link
+- Login as User B → Click “Buy Product”
+- Login as User A → Check dashboard for earned credits
 
-Register User A
-
-Copy User A’s referral link
-
-Open incognito → Register User B using the referral link
-
-Login as User B → Click “Buy Product”
-
-Login as User A → Check dashboard for earned credits
-
-👨‍💻 Author
-
-Miron Mahmud
-Email: mironcoder@gmail.com
-
-Phone: +880 18382 88389
-Website: mironmahmud.com
-
-GitHub: mironcoderr
+## 👨‍💻 Author
+- Miron Mahmud
+- Email: mironcoder@gmail.com
+- Phone: +880 18382 88389
+- Website: mironmahmud.com
+- GitHub: mironcoderr
