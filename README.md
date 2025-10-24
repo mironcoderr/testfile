@@ -20,13 +20,23 @@
 - Prevents double-crediting
 
 ### Purchase Simulation
-- “Buy Product” button to simulate purchases
+- “Purchase Now” button to simulate purchases
 - Only the first purchase of a referred user triggers credit rewards
 
 ### User Dashboard
 - Total Referred Users
-- Converted Users (who purchased)
+- Total Pending Users
+- Total Converted Users (who purchased)
 - Total Credits Earned
+- Total My Referral Users
+- Unique referral link with copy/share option
+
+### Admin Dashboard
+- Total Registered Users
+- Total Referred Users
+- Total Organic Users
+- Total Credits Earned
+- All Registered Users Table
 - Unique referral link with copy/share option
 
 ---
@@ -38,7 +48,7 @@
 | Frontend | Next.js 15, TypeScript, Tailwind CSS, Framer Motion |
 | Backend | Node.js, Express.js, TypeScript |
 | Database | MongoDB + Mongoose |
-| State Management | Zustand |
+| State Management | Redux Toolkit + React Redux |
 | Validation | Zod (frontend & backend) |
 | Authentication | JWT + bcrypt |
 
