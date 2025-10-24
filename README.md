@@ -86,43 +86,9 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 git clone https://github.com/mironcoderr/webpez.git
 cd webpez
 
-Backend Setup
-cd backend
-npm install
-cp .env.example .env
-npm run dev
 
-
-Backend runs on http://localhost:5000.
-
-Frontend Setup
-cd ../frontend
-npm install
-cp .env.example .env.local
-npm run dev
-
-
-Frontend runs on http://localhost:3000.
-
-📊 System Architecture (High-Level)
 [ Next.js Frontend ]
         ⬇️ REST API (Axios)
 [ Express.js Backend ]
         ⬇️ Mongoose Queries
 [ MongoDB Database ]
-
-
-Frontend communicates via JWT-authenticated requests
-
-Backend validates users, handles business logic, and updates database
-
-MongoDB stores users, referrals, and purchases
-
-🖼 UML Diagram
-
-Include your system design diagram here (system-design.png)
-Example flow:
-
-User → Register → Referral code detected → Link to Referrer
-User → Login → Dashboard loads stats
-User → Purchase → Check if first → Assign credits
