@@ -1,29 +1,48 @@
-# 📌 webpez – Referral & Credit System (Full Stack)
-This project is a full-stack Referral & Credit System built as part of a mid-level developer assignment. The system simulates a digital product platform (e.g., e-book/templates store) where users can register, invite others using a referral link, earn credits on referred users’ first purchases, and track referral activity through a dashboard.
+# Webpez – Referral & Credit System
 
-✅ Core Features
-🔐 User Authentication
+## 📌 Project Overview
+**Webpez** is a full-stack Referral & Credit System built as a digital product platform. Users can register, share referral links, earn credits on referrals’ first purchases, and track all referral activity through a responsive dashboard. This project demonstrates a scalable, modular full-stack application with clean architecture, secure authentication, and thoughtful engineering practices.
 
-Register, login, and logout securely
+---
 
-Passwords hashed using bcrypt
+## ✅ Core Features
 
-Authentication managed with JWT tokens (HTTP-only cookies)
+### User Authentication
+- Secure registration, login, and logout
+- Passwords hashed using **bcrypt**
+- JWT-based authentication with HTTP-only cookies
 
-🏷️ Referral Management
+### Referral Management
+- Each user receives a **unique referral link**
+- Referral relationships tracked upon registration
+- Referral status recorded (registered vs converted)
+- **2 credits** awarded to both users on the first purchase only
+- Prevents double-crediting
 
-Each user automatically receives a unique referral link
+### Purchase Simulation
+- “Buy Product” button to simulate purchases
+- Only the first purchase of a referred user triggers credit rewards
 
-When a new user registers using the referral link, the relationship is recorded
+### User Dashboard
+- Total Referred Users
+- Converted Users (who purchased)
+- Total Credits Earned
+- Unique referral link with copy/share option
 
-Referral statuses tracked (registered vs converted)
+---
 
-Both referrer and referred users earn 2 credits on the referred user’s first purchase only
+## 🏗️ Tech Stack
 
-Double-credit protection (only first purchase is rewarded)
+| Layer | Technology |
+|-------|------------|
+| Frontend | Next.js 15, TypeScript, Tailwind CSS, Framer Motion |
+| Backend | Node.js, Express.js, TypeScript |
+| Database | MongoDB + Mongoose |
+| State Management | Zustand |
+| Validation | Zod (frontend & backend) |
+| Authentication | JWT + bcrypt |
 
-🛒 Purchase Simulation
+---
 
-Users can simulate buying a product using a "Buy Product" button
+## 📂 Project Structure
 
-Only the first purchase of a referred user triggers credit rewards
