@@ -46,7 +46,7 @@
 
 ## 📂 Project Structure
 root/
-├── backend/             # Express + MongoDB APIs
+├── backend/
 │   ├── configs/
 │   ├── controllers/
 │   ├── enums/
@@ -62,7 +62,7 @@ root/
 │   ├── server.ts
 │   └── tsconfig.json
 │
-├── frontend/            # Next.js Client App
+├── frontend/
 │   ├── app/
 │   ├── components/
 │   ├── enums/
@@ -71,7 +71,7 @@ root/
 │   ├── library/
 │   ├── public/
 │   ├── schemas/
-│   ├── store/           # Redux state
+│   ├── store/
 │   ├── types/
 │   ├── env.example
 │   ├── next-env.d.ts
@@ -84,5 +84,6 @@ root/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+
 
 
