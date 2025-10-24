@@ -46,42 +46,43 @@
 
 ## 📂 Project Structure
 root/
-│── backend/ → Express + MongoDB APIs
-| ├── configs/
-│ ├── controllers/
-| ├── enums/
-| ├── middlewares/
-│ ├── models/
-│ ├── routes/
-| ├── schemas/
-| ├── services/
-| ├── types/
-| ├── env.example
-| ├── package-lock.json
-| ├── package.json
-| ├── server.ts
-│ └── tsconfig.json
+├── backend/             # Express + MongoDB APIs
+│   ├── configs/
+│   ├── controllers/
+│   ├── enums/
+│   ├── middlewares/
+│   ├── models/
+│   ├── routes/
+│   ├── schemas/
+│   ├── services/
+│   ├── types/
+│   ├── env.example
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── server.ts
+│   └── tsconfig.json
 │
-│── frontend/ → Next.js Client App
-│ ├── app/
-│ ├── components/
-| ├── enums/
-| ├── hooks/
-| ├── json/
-| ├── library/
-| ├── public/
-| ├── schemas/
-│ ├── store/ → Redux state
-│ ├── types/
-| ├── env.example
-| ├── next-env.d.ts
-| ├── next.config.ts
-| ├── package-lock.json
-| ├── package.json
-| ├── postcss.config.mjs
-│ └── tsconfig.json
+├── frontend/            # Next.js Client App
+│   ├── app/
+│   ├── components/
+│   ├── enums/
+│   ├── hooks/
+│   ├── json/
+│   ├── library/
+│   ├── public/
+│   ├── schemas/
+│   ├── store/           # Redux state
+│   ├── types/
+│   ├── env.example
+│   ├── next-env.d.ts
+│   ├── next.config.ts
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.mjs
+│   └── tsconfig.json
 │
-├── gitignore
+├── .gitignore
 ├── LICENSE
 └── README.md
+
 
